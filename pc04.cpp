@@ -7,6 +7,11 @@ using namespace std;
 
 const int T = 5;
 
+<<<<<<< HEAD
+=======
+void indicadores(int); // prototipo de funciones
+
+>>>>>>> 6e9d78d0a94395fb06bb435b5d47d2983c5b4a6e
 int main ()
 {
     string codigos[T] = {"E001", "E002", "E003", "E004", "E005"};
