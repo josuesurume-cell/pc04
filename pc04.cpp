@@ -74,18 +74,18 @@ int main ()
     cout << "Indicadores: " << endl;
     cout << fixed << setprecision(2); //muestra los resultados con 2 decimales
     cout << "TF = " << TF << endl;
-    cout << "TS = " << TS << endl;
-    cout << "II = " << II << " %" << endl;
+    cout << "TS = " << TS  << endl;
+    cout << "II = " << II << "%" << endl;
     cout << "\n";
 
     cout << "Recomendación: " << endl;
     if ((TF > 10)||(TS > 20))
     {
-        cout << "Reforzar capacitaciones y supervisiones" << endl;
+        cout << "Reforzar capacitaciones y supervisiones." << endl;
     }
     else
     {
-        cout << "Mantener controles actuales" << endl;
+        cout << "Mantener controles actuales." << endl;
     }
     return 0;
 }
