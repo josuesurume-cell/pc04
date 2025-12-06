@@ -10,6 +10,19 @@ const int T = 5;
 int main ()
 {
     // Arreglos con los tipos de eventos
+/*
+  =======================================================
+  CATÁLOGO DE EVENTOS (PC04 - OBLIGATORIO)
+  =======================================================
+  | Código | Tipo de Evento                             |
+  |--------|--------------------------------------------|
+  | E001   | Incidente sin lesión                       |
+  | E002   | Accidente leve                             |
+  | E003   | Accidente incapacitante                    |
+  | E004   | Accidente fatal                            |
+  | E005   | Casi accidente                             |
+  =======================================================
+*/
     string codigos[T] = {"E001", "E002", "E003", "E004", "E005"};
     string descripciones[T] = {
         "Incidente sin lesión",
@@ -18,7 +31,13 @@ int main ()
         "Accidente fatal",
         "Casi accidente"
     };
-    string areas[T] = {"Mina Subterránea", "Planta", "Mantenimiento", "Logística", "Geología"};
+    string areas[T] = {
+        "Mina Subterránea", 
+        "Planta", 
+        "Mantenimiento", 
+        "Logística", 
+        "Geología"
+    };
 
     int conteos[T] = {0}; // Contador por tipo de evento
 
