@@ -91,8 +91,8 @@ int main ()
     } while (trabajadores <= 0);
 
     // Cálculo de indicadores
-    const int HORAS_MES = 160; // 8 horas x 20 días
-    double HH = HORAS_MES * 12 * trabajadores; // Horas-hombre anuales
+    
+    double HH = 160 * 12 * trabajadores; // Horas-hombre anuales
 
     // Índice de frecuencia: solo accidentes incapacitantes
     double TF = (conteos[2] * 1000000.0) / HH;
